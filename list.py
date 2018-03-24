@@ -8,6 +8,9 @@ def d():
     print("length of list1=")
     print(len(list1))
 
+    list1.sort()
+    print(list1)
+
     print("length of list2=")
     print(len(list2))
 
@@ -30,7 +33,7 @@ def d():
     list(seq)
 
     print(len(seq))
-
+    
     print(seq)
 
     list1[2]=2991 #adding element at index 2
